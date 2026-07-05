@@ -1039,4 +1039,1371 @@ Scanning files
   adding: spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01.iml (deflated 41%)
   adding: spring/_EXEOP~1 (deflated 94%)
 ✨ تم بنجاح! ستجد ملف kaggle_dataset.zip جاهزاً الآن على سطح المكتب لرفعه فوراً.
-yassine@192 NO NAME % 
+yassine@192 NO NAME % clear
+
+yassine@192 NO NAME % # 1. إنشاء مجلد مؤقت على سطح المكتب
+mkdir -p ~/Desktop/kaggle_files
+
+# 2. نسخ الملفات السليمة فقط من الـ USB وتجاهل أي ملف تالف تلقائياً
+rsync -av --ignore-errors "/Volumes/NO NAME/" ~/Desktop/kaggle_files/
+
+# 3. الدخول إلى سطح المكتب وضغط المجلد
+cd ~/Desktop && zip -r -X my_dataset.zip kaggle_files
+
+# 4. حذف المجلد المؤقت (الآن لديك ملف my_dataset.zip جاهز على سطح المكتب)
+rm -rf ~/Desktop/kaggle_files
+zsh: command not found: #
+zsh: command not found: #
+building file list ... file has vanished: "/Volumes/NO NAME/Technical Tests/SQLI FrontEnd 2022/bandicam "021"
+file has vanished: "/Volumes/NO NAME/Technical Tests/SQLI FrontEnd 2022/_BIN~\#02194.JPG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORaCLE~1"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/_ORACL>3"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/._\#007ɲacle Java"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~5.  ?\#220\#200"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/_\#0250-74~1.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/"8-71J~9.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/38-74lv1.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/5\#022-74E~1.P^U"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/_52-7´vq.PNg"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/11-71D~1.pNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/4-71GIz1.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/_7r-7\#021~1.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/27-71J~1.PN\#007"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/12-71Dn1.PNg"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/_33-w1~1.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/1-71GI~1.P\#016G"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/3$m71J~1.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/r9-71E?\#202~1.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/\#001.?\#220\#200_?\#220\#2002?\#220\#200©.?\#220\#200-?\#220\#200"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Oracle/ORACLE~3/_63-w4~1.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/SG ATS/CAPTUR~=.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/SG ATS/_CAP\U~5.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/SG ATS/_CApT~89.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (389)>png"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Novelis/_\#003AP~109.PNG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Novelis/_CAP~396.PnG"
+file has vanished: "/Volumes/NO NAME/Technical Tests/Novelis/\#001.?\#220\#200_?\#220\#200C?\#220\#200i.?\#220\#200p?\#220\#200"
+file has vanished: "/Volumes/NO NAME/spring/._ExceLReader.zyp\#001"
+file has vanished: "/Volumes/NO NAME/spring/H.?\#220\#200z?\#220\#200i?\#220\#200t.?\#220\#200?\#220\#200?\#220\#200"
+file has vanished: "/Volumes/NO NAME/spring/POLYCO|4.PDB"
+file has vanished: "/Volumes/NO NAME/spring/_CODMS>3.ZIP"
+file has vanished: "/Volumes/NO NAME/spring/Solution ð?\#201?ssibla du TO?\#21302O?\#207zip?\#200"
+file has vanished: "/Volumes/NO NAME/spring/\#007d?\#220\#200e?\#220\#200 ?\#220\#200d.?\#220\#200e?\#220\#200"
+file has vanished: "/Volumes/NO NAME/spring/SOL\#025~280.ZIP"
+file has vanished: "/Volumes/NO NAME/spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/impl/\#016ATIVE~2.CLA"
+file has vanished: "/Volumes/NO NAME/spring/solution_tp3/gs_personnes_spring_hibernate/_PO~1  $.X\#015L"
+file has vanished: "/Volumes/NO NAME/spring/solution_tp3/gs_personnes_spring_hibernate/ClASSP~1.  0"
+file has vanished: "/Volumes/NO NAME/spring/solution_tp3/gs_personnes_spring_hibernate/~\#021.SET"
+file has vanished: "/Volumes/NO NAME/spring/solution_tp3/gs_personnes_spring_hibernate/spc.?\#220\#200"
+file has vanished: "/Volumes/NO NAME/spring/solution_tp3/gs_personnes_spring_hibernate/nsetti࡮gs/JS?\#220\#200TSC~1"
+file has vanished: "/Volumes/NO NAME/spring/solution_tp3/gs_personnes_spring_hibernate/nsetti࡮gs/v1.JSD"
+file has vanished: "/Volumes/NO NAME/spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEN_~\#023.XML"
+file has vanished: "/Volumes/NO NAME/spring/EXEMPL~1.$(/persistence/.idea/libraries/\#022l?\#220\#200_?\#220\#200i?\#220\#200s.?\#220\#200t?\#220\#200"
+file has vanished: "/Volumes/NO NAME/spring/EXEMPL~1.$(/persistence/.idea/libraries/MAV\#005N~48.XML"
+file has vanished: "/Volumes/NO NAME/spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEN~5\#023.XML"
+file has vanished: "/Volumes/NO NAME/spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEN~58.\#030ML"
+file has vanished: "/Volumes/NO NAME/spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/.pro?\#201?ѥѣt?\#200\#200"
+file has vanished: "/Volumes/NO NAME/spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/._\#016pvu?\#212ject"
+file has vanished: "/Volumes/NO NAME/spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/src/main/java/com/test/TESTPR|1.JAV"
+done
+./
+pfe rapport final version-mostafa-jaouad.pdf
+.Spotlight-V100/
+.Spotlight-V100/VolumeConfiguration.plist
+.Spotlight-V100/Store-V2/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/.store.db
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.directoryStoreFile
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.directoryStoreFile.shadow
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexArrays
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexBigDates
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexCompactDirectory
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexDirectory
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexGroups
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexHead
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexIds
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexPositions
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexPostings
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.shadowIndexGroups
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.shadowIndexHead
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/Cab.created
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/Lion.created
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/indexState
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journalExclusion
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.directoryStoreFile
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.directoryStoreFile.shadow
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexArrays
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexBigDates
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexCompactDirectory
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexDirectory
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexGroups
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexHead
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexIds
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexPositionTable
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexPositions
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexPostings
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexTermIds
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexUpdates
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexArrays
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexCompactDirectory
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexDirectory
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexGroups
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexHead
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexPositionTable
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexTermIds
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/psid.db
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/reverseDirectoryStore
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/reverseDirectoryStore.shadow
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/reverseStore.updates
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/shutdown_time
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/store.db
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/store.updates
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/store_generation
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/tmp.Cab
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/tmp.Lion
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/tmp.spotlight.loc
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/tmp.spotlight.state
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.assisted_import_post/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.assisted_import_pre/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.corespotlight/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.health_check/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.live/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.live_priority/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.live_system/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.live_user/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.migration/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.migration_secondchance/
+.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.scan/
+.fseventsd/
+.fseventsd/fseventsd-uuid
+JAVA/
+JAVA/Anghel Leonard - The Complete Coding Interview Guide in Java_ An effective guide for aspiring Java developers to ace their programming interviews-Packt Publishing (2020) (1).pdf
+JAVA/Cours JEE.pptx.pdf
+JAVA/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf
+JAVA/Goetz, Brian_Peierls, Tim_Bloch, Joshua_Bowbeer, Joseph - Java concurrency in practice_ Brian Goetz ... et al.-Addison-Wesley Professional (2006_2013).pdf
+JAVA/Head First Design Patterns, 2nd Edition by Elisabeth Robson, Eric Freeman-O'Reilly-9781492078005-EBooksWorld.ir.epub
+JAVA/Head First Design Patterns, 2nd Edition by Elisabeth Robson, Eric Freeman-O'Reilly-9781492078005-EBooksWorld.ir.pdf
+JAVA/Head First Java 3rd Ed.epub
+JAVA/Joshua Bloch - Effective Java-Addison-Wesley Professional (2018).pdf
+JAVA/Spring Security in Action (Laurentiu Spilca) (z-lib.org).pdf
+JAVA/Vlad Mihalcea - High-Performance Java Persistence (2020).pdf
+JAVA/cours java Boudaa.pdf
+System Volume Information/
+System Volume Information/IndexerVolumeGuid
+System Volume Information/WPSettings.dat
+Technical Tests/
+Technical Tests/Alten
+Technical Tests/D-AIM
+Technical Tests/PFE_2020_Problems.zip
+Technical Tests/Payment-Center-for-Africa
+Technical Tests/Readme.txt
+Technical Tests/SQLI
+Technical Tests/Neosys/
+Technical Tests/Neosys/.?\#201\#237,DS_Stnre
+Technical Tests/Neosys/DS_STO~1
+Technical Tests/Neosys/SQL
+Technical Tests/Neosys/_READM~1.MD
+Technical Tests/Neosys/_SQ~1.`
+Technical Tests/Neosys/_TALEN^1. !
+Technical Tests/Neosys/readme.md
+Technical Tests/Neosys/TALEND$. `/
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.05.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.06.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.07 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.07.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.10 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.10.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.11 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.11.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.12 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.12.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.43.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.49.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.53.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.55 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.55.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.56 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.56.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.57 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.57 (2).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.57.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.18.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.20.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.21 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.21 (2).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.21.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.23.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.24 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.24.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.25 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.25.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.28.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.33 (1).jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.33.jpeg
+Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.34.jpeg
+Technical Tests/NimbleWays/
+Technical Tests/NimbleWays/Capture d?\#200\#231e?\#201cran (61).png
+Technical Tests/NimbleWays/Capture d?\#200\#231e?\#201cran (62).png
+Technical Tests/NimbleWays/Capture d?\#200\#231e?\#201cran (63).png
+Technical Tests/NimbleWays/Capture d?\#200\#231e?\#201cran (64).png
+Technical Tests/NimbleWays/Capture d?\#200\#231e?\#201cran (65).png
+Technical Tests/NimbleWays/Capture d?\#200\#231e?\#201cran (66).png
+Technical Tests/NimbleWays/Test Logique.txt
+Technical Tests/Novelis/
+Technical Tests/Novelis/CAPTT~78.PNG
+Technical Tests/Novelis/CAPTUR~1.PNO
+Technical Tests/Novelis/CAPTUR~2.PNG
+Technical Tests/Novelis/CAPTU~71.PLG
+Technical Tests/Novelis/CAPT^400.PNG
+Technical Tests/Novelis/CAPT~106.PNG
+Technical Tests/Novelis/CAPT~113.PNG
+Technical Tests/Novelis/CAPT~344.PNG
+Technical Tests/Novelis/CAPT~35!.PNG
+Technical Tests/Novelis/CAPT~393.PNG
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (284).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (285).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (286).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (380).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (381).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (382).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (383).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (386).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (387).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (388).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (390).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (392).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (393).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (394).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (395).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (396).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (397).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (398).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (399).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (400).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (401).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (402).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (403).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (404).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (406).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (407).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (408).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (410).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (411).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (413).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (414).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (415).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (416).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (417).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (418).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (419).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (420).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (421).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (422).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (423).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (424).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (427).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (428).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (429).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (431).png
+Technical Tests/Novelis/Capture d?\#200\#231e?\#201cran (432).png
+Technical Tests/Novelis/_CAPTU~2.PNG
+Technical Tests/Novelis/_CAPT~74.PNG
+Technical Tests/Novelis/_CAPT~81.PNG
+Technical Tests/Novelis/_CAP~116.PNG
+Technical Tests/Novelis/_CAP~347.PNG
+Technical Tests/Novelis/_CAP~403.PNG
+Technical Tests/Novelis/_CEPT~67.PNG
+Technical Tests/Novelis/_CIPþ#54.XNG
+Technical Tests/Novelis/_cap~340.P^G
+Technical Tests/Oracle/
+Technical Tests/Oracle/ORACL~37
+Technical Tests/Oracle/Ors?\#214cle FroU?\#212telȤ
+Technical Tests/Oracle/^ORACL~5
+Technical Tests/Oracle/_GRACL~±
+Technical Tests/Oracle/_ORAC~40
+Technical Tests/Oracle/\#177ORACL~2
+Technical Tests/Oracle/ORACLE~3/
+Technical Tests/Oracle/ORACLE~3/13-71 Docker.png
+Technical Tests/Oracle/ORACLE~3/16-71D~1.PNG
+Technical Tests/Oracle/ORACLE~3/17-71 Docker.png
+Technical Tests/Oracle/ORACLE~3/18-71 Docker.png
+Technical Tests/Oracle/ORACLE~3/2-71 Git.png
+Technical Tests/Oracle/ORACLE~3/21-71 Docker.png
+Technical Tests/Oracle/ORACLE~3/22-71 Docker.png
+Technical Tests/Oracle/ORACLE~3/23-71 Algo.png
+Technical Tests/Oracle/ORACLE~3/23-71(1) Algo.png
+Technical Tests/Oracle/ORACLE~3/24-71 Jenkins.png
+Technical Tests/Oracle/ORACLE~3/25-71 Jenkins.png
+Technical Tests/Oracle/ORACLE~3/26-71 Jenkins-Nexus.png
+Technical Tests/Oracle/ORACLE~3/3-71 Git.png
+Technical Tests/Oracle/ORACLE~3/30-71 Jenkins.png
+Technical Tests/Oracle/ORACLE~3/31-71 Jenkins.png
+Technical Tests/Oracle/ORACLE~3/32)71 Jencins.png
+Technical Tests/Oracle/ORACLE~3/33-71J~1.PNG
+Technical Tests/Oracle/ORACLE~3/35-7! ?\#212enkins
+Technical Tests/Oracle/ORACLE~3/36-71 Jenkins.png
+Technical Tests/Oracle/ORACLE~3/37-74 Jenkins.png
+Technical Tests/Oracle/ORACLE~3/39-74L~1.PNG
+Technical Tests/Oracle/ORACLE~3/40-74 Linux Admin.png
+Technical Tests/Oracle/ORACLE~3/43-74 Linux Admin.png
+Technical Tests/Oracle/ORACLE~3/44-74 Linux Admin.png
+Technical Tests/Oracle/ORACLE~3/48)64L~1.PNG
+Technical Tests/Oracle/ORACLE~3/49-74 Linux Admin.png
+Technical Tests/Oracle/ORACLE~3/51-74E~5.PNG
+Technical Tests/Oracle/ORACLE~3/51-74L~1.PNG
+Technical Tests/Oracle/ORACLE~3/53-74 Elastic Stack.png
+Technical Tests/Oracle/ORACLE~3/54-74 Ela?\#2013tic Stacɫ.png
+Technical Tests/Oracle/ORACLE~3/56-74 Elastic Stack.png
+Technical Tests/Oracle/ORACLE~3/57%74E~1.PNG
+Technical Tests/Oracle/ORACLE~3/59-74 Python.png
+Technical Tests/Oracle/ORACLE~3/6-71 Git.png
+Technical Tests/Oracle/ORACLE~3/60-74 Python.png
+Technical Tests/Oracle/ORACLE~3/61-74P~±.RNG
+Technical Tests/Oracle/ORACLE~3/62-74P~1.PNG
+Technical Tests/Oracle/ORACLE~3/63-?\#200?4(Python࠮png
+Technical Tests/Oracle/ORACLE~3/64-74 Python.png
+Technical Tests/Oracle/ORACLE~3/65-74P~1.PNF
+Technical Tests/Oracle/ORACLE~3/66-74 Java.png
+Technical Tests/Oracle/ORACLE~3/67-74 Java.png
+Technical Tests/Oracle/ORACLE~3/69-7´J~1.PNG
+Technical Tests/Oracle/ORACLE~3/70-74 Jav`®png
+Technical Tests/Oracle/ORACLE~3/71(1)-74 Java.png
+Technical Tests/Oracle/ORACLE~3/72-74 Java.png
+Technical Tests/Oracle/ORACLE~3/73-74 Java.png
+Technical Tests/Oracle/ORACLE~3/9-71 Docker.png
+Technical Tests/Oracle/ORACLE~3/_11-31~±.PNO
+Technical Tests/Oracle/ORACLE~3/_12-75~1.PNG
+Technical Tests/Oracle/ORACLE~3/_15-71~1.PNG
+Technical Tests/Oracle/ORACLE~3/_16­75~1.PNG
+Technical Tests/Oracle/ORACLE~3/_28-71~1.PNG
+Technical Tests/Oracle/ORACLE~3/_29-7±~1.PNC
+Technical Tests/Oracle/ORACLE~3/_34-71~1.PNG
+Technical Tests/Oracle/ORACLE~3/_34-71~1.PNO
+Technical Tests/Oracle/ORACLE~3/_38-74~1.PNG
+Technical Tests/Oracle/ORACLE~3/_45-'4~1.PNG
+Technical Tests/Oracle/ORACLE~3/_48-74~1.PNG
+Technical Tests/Oracle/ORACLE~3/_57-74~1.PNG
+Technical Tests/Oracle/ORACLE~3/_61-74~1.PNG
+Technical Tests/Oracle/ORACLE~3/_62-74~1.PNÇ
+Technical Tests/Oracle/ORACLE~3/_65-74~1.RNG
+Technical Tests/Oracle/ORACLE~3/_69-70~1.PNG
+Technical Tests/Oracle/ORACLE~3/_70-74~1.RNG
+Technical Tests/Oracle/ORACLE~3/_±-71E~1.PNG
+Technical Tests/Oracle/ORACLE~3/´5-74L~1.PNG
+Technical Tests/Oracle/ORACLE~3/?\#23726-71~1.PNG
+Technical Tests/Oracle/ORACLE~3/?\#200?5-71 Doku?\#204er.png
+Technical Tests/SG ATS/
+Technical Tests/SG ATS/CAPO?\#202U~56.PNG
+Technical Tests/SG ATS/CAPTUR~4.PNG
+Technical Tests/SG ATS/CAPTU~62.PNG
+Technical Tests/SG ATS/CAPTU~68.PNG
+Technical Tests/SG ATS/CAPTU~98.png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201a?\#203ran (31).png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201cran (11).png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201cran (12).png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201cran (13).png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201cran (14).png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201cran (15).png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201cran (16).png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201cran (17).png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201cran (22).png
+Technical Tests/SG ATS/Capture d?\#200\#231e?\#201cran (9).png
+Technical Tests/SG ATS/Captɵze d?\#200\#231e?\#201c?\#201?an (10).png
+Technical Tests/SG ATS/_CAPTU~4.PNG
+Technical Tests/SG ATS/_CAPT~59.PNG
+Technical Tests/SG ATS/_CAPT~65.O?\#202NG
+Technical Tests/SG ATS/_CAPT~95.PNO
+Technical Tests/SG ATS/n_A?\#203apture d?\#200\#231ࣩcran (13).png
+Technical Tests/SQLI FrontEnd 2022/
+Technical Tests/SQLI FrontEnd 2022/BAND~!42.JPG
+Technical Tests/SQLI FrontEnd 2022/BAND~158.JPG
+Technical Tests/SQLI FrontEnd 2022/BAND~198.JPG
+Technical Tests/SQLI FrontEnd 2022/BAND~±34.JPG
+Technical Tests/SQLI FrontEnd 2022/BEND~150.JPG
+Technical Tests/SQLI FrontEnd 2022/Bandicࡡm 2021-11-28 34­11-39-297.jpg
+Technical Tests/SQLI FrontEnd 2022/OBAN~138.JPG
+Technical Tests/SQLI FrontEnd 2022/_BAL~186.JPG
+Technical Tests/SQLI FrontEnd 2022/_BAN~146.JPG
+Technical Tests/SQLI FrontEnd 2022/_BAN~±54.JPG
+Technical Tests/SQLI FrontEnd 2022/_CAN~202.JPG
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-09-56-018.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-11-42-309.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-11-44-631.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-29-125.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-33-069.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-38-765.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-40-859.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-49-319.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-55-656.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-59-205.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-14-02-626.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-14-04-576.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-18-11-465.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 17-03-21-504.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 17-03-31-677.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 17-03-35-020.jpg
+Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 17-03-37-165.jpg
+Technical Tests/SQLI FrontEnd 2022/required answer.mp4
+dont remove/
+dont remove/Screen Recording 2023-02-14 at 23.34.50.mov
+dont remove/Screen Recording 2023-02-14 at 23.34.50.zip
+dont remove/Screen Shot 2022-11-07 at 21.56.31.png
+dont remove/Screen Shot 2023-02-14 at 23.34.17.png
+dont remove/Screen Shot 2023-06-17 at 19.26.22.png
+dont remove/Screen Shot 2023-06-17 at 19.26.29.png
+dont remove/Screen Shot 2023-08-20 at 10.29.56.png
+dont remove/Screen Shot 2023-09-13 at 10.51.22.png
+dont remove/Screen Shot 2023-11-01 at 21.59.22.png
+dont remove/Screen Shot 2023-12-03 at 14.20.47.png
+dont remove/ats-logo.png
+dont remove/bac.png
+dont remove/index.html
+dont remove/minhaty.png
+dont remove/donation-app-images/
+dont remove/donation-app-images/360_F_318308547_FALKncfWsTmjzwd0y0muNeCFOULPLB7Q.jpeg
+dont remove/donation-app-images/men-clothes/
+dont remove/donation-app-images/men-clothes/download.jpeg
+dont remove/donation-app-images/men-clothes/gghsb.jpeg
+dont remove/donation-app-images/men-clothes/images.jpeg
+dont remove/donation-app-images/woman-clothes/
+dont remove/donation-app-images/woman-clothes/Fashion brands you didnt know you could shop at John Lewis.avif
+dont remove/donation-app-images/woman-clothes/fashion-female-clothes-collagewomen-girls-260nw-637422163.webp
+dont remove/donation-app-images/woman-clothes/istockphoto-1208148708-612x612.jpeg
+spring/
+spring/Annexe codes sources cours C-sharp.pdf
+spring/CODESN~2.ZIP
+spring/CODESS~1.ZIP
+spring/COURSC~1.PDF
+spring/COURSW~1.ZIP
+spring/Code a?\#200 utiliser pour TP3.zip
+spring/Code de base et conception du mini projet.zip
+spring/Code source de cours -chapitre gestion de la persistance.zip
+spring/Conception du mini-projet gestion des notes.zip
+spring/EXCULR~1.ZIP
+spring/Examen corrige?\#201 de la session normale JEE-2020-2021.pdf
+spring/JEE - examen - variante 1.pdf
+spring/POLYCG~3.PDF
+spring/Polycopie?\#201 officiel de Travaux pratiques JAVA EE et Spring v4.pdf
+spring/Polycopie?\#201 officiel de Travaux pratiques JAVA EE et Spring.pdf
+spring/SOLUTI~5.ZIP
+spring/Solution TP1 EX 2 - Version finale.zip
+spring/Solution TP3 EX01.zip
+spring/Solution du TP03-EX01 (Partie 2).zip
+spring/Solution du TP5.zip
+spring/Support officiel.pdf
+spring/TP C sharp.pdf
+spring/TP3 - partie1.mp4
+spring/Tutoriel Spring Security.pdf
+spring/_AODA?\#212S~2.ZIP
+spring/_COURS~1.PDF
+spring/_EXEOP~1
+spring/_GXAME~1.PDF
+spring/_POLYC~3.PDF
+spring/_PONYC~4.PDF
+spring/_SOLWT~5.ZIP
+spring/_SOURQ~1.ZIP
+spring/_WOH~268.ZIP
+spring/EXEMPL~1.$(/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01.iml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01_02
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie01
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02_1
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_uni
+spring/EXEMPL~1.$(/ensah_base_jee
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.classpath
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.gitignore
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.project
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.idea/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.idea/.gitignore
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.idea/compiler.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.idea/encodings.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.idea/jarRepositories.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.idea/misc.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.idea/workspace.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.settings/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.settings/org.eclipse.core.resources.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.settings/org.eclipse.jdt.apt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.settings/org.eclipse.jdt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/.settings/org.eclipse.m2e.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/src/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/src/main
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/target/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/target/classes
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/target/generated-sources/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/target/generated-sources/annotations/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_01/target/test-classes/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/.classpath
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/.project
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/.settings/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/.settings/org.eclipse.core.resources.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/.settings/org.eclipse.jdt.apt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/.settings/org.eclipse.jdt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/.settings/org.eclipse.m2e.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/test
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/bo/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/bo/Etudiant.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/bo/Personne.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/bo/Prof.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/dao/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/dao/HibernateEtudiantDaoImpl.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/dao/HibernateProfDaoImpl.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/src/main/java/com/dao/SessionFactoryBuilder.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/target/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/target/classes
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie02/target/test-classes/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/.classpath
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/.project
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/.settings/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/.settings/org.eclipse.core.resources.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/.settings/org.eclipse.jdt.apt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/.settings/org.eclipse.jdt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/.settings/org.eclipse.m2e.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/bo/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/bo/Etudiant.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/bo/Personne.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/bo/Prof.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/dao/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/dao/HibernateEtudiantDaoImpl.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/dao/HibernateProfDaoImpl.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/dao/SessionFactoryBuilder.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/test/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/src/main/java/com/test/TestProgram.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/META-INF/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/META-INF/MANIFEST.MF
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/META-INF/maven/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/META-INF/maven/com.ensah/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_heritage_strategie3/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_heritage_strategie3/pom.properties
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_heritage_strategie3/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/bo/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/bo/Etudiant.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/bo/Personne.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/bo/Prof.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/dao/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/dao/HibernateEtudiantDaoImpl.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/dao/HibernateProfDaoImpl.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/dao/SessionFactoryBuilder.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/test/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/classes/com/test/TestProgram.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie3/target/test-classes/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/.classpath
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/.project
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/.settings/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/.settings/org.eclipse.core.resources.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/.settings/org.eclipse.jdt.apt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/.settings/org.eclipse.jdt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/.settings/org.eclipse.m2e.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/bo/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/bo/Etudiant.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/bo/Personne.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/bo/Prof.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/dao/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/dao/HibernateEtudiantDaoImpl.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/dao/HibernateProfDaoImpl.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/dao/SessionFactoryBuilder.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/test/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/src/main/java/com/test/TestProgram.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/META-INF/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/META-INF/MANIFEST.MF
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/META-INF/maven/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/META-INF/maven/com.ensah/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_heritage_strategie4/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_heritage_strategie4/pom.properties
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_heritage_strategie4/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/bo/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/bo/Etudiant.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/bo/Personne.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/bo/Prof.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/dao/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/dao/HibernateEtudiantDaoImpl.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/dao/HibernateProfDaoImpl.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/dao/SessionFactoryBuilder.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/test/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/classes/com/test/TestProgram.class
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_heritage_strategie4/target/test-classes/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/.classpath
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/.project
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/.settings
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/src/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/src/main/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/src/main/_JAV~1 
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/src/main/javi. `
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/com
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/hibernate.cfg.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/META-INF/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/META-INF/MANIFEST.MF
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/META-INF/maven/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/META-INF/maven/com.ensah/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_many_to_many/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_many_to_many/pom.properties
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_many_to_many/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_many_to_many/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/.classpath
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/.project
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/.settings
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/log/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/log/log.log
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/src/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/src/main/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/src/main/java/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/src/main/java/com/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/src/main/java/com/bo
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/src/main/java/com/dao/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/src/main/java/com/dao/SessionFactoryBuilder.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/src/main/java/com/test/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/classes/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/classes/com
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/classes/META-INF/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/classes/META-INF/MANIFEST.MF
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/classes/META-INF/maven/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/classes/META-INF/maven/com.ensah/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_one_to_many_bi/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_one_to_many_bi/pom.properties
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_many_bi/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_one_to_many_bi/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/.classpath
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/OSR~1
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/target
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/.settings/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/.settings/org.eclipse.core.resources.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/.settings/org.eclipse.jdt.apt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/.settings/org.eclipse.jdt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_bi/.settings/org.eclipse.m2e.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/.classpath
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/.project
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/.settings/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/.settings/ORGECL~3.PRE
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/.settings/ORGECL~4.PRE
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/.settings/_ORGEC~3.PRE
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/.settings/_ORGEC~4.PRE
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/.settings/org.eclipse.jdt.apt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/.settings/org.eclipse.jdt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/com/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/com/bo/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/com/bo/Adresse.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/com/bo/Etudiant.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/com/dao/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/com/dao/HibernateGenericDaoImpl.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/com/dao/SessionFactoryBuilder.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/com/test/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/src/main/java/com/test/TestProgram.java
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/classes/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/classes/com
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/classes/META-INF/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/classes/META-INF/MANIFEST.MF
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/classes/META-INF/maven/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/classes/META-INF/maven/com.ensah/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_one_to_one_uni/
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_one_to_one_uni/pom.properties
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/classes/META-INF/maven/com.ensah/Exemple_Cours_Hibernate_2_one_to_one_uni/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_Hibernate_2_one_to_one_uni/target/test-classes/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/.classpath
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/.project
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/.settings/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/.settings/org.eclipse.core.resources.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/.settings/org.eclipse.jdt.apt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/.settings/org.eclipse.jdt.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/.settings/org.eclipse.m2e.core.prefs
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/log/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/log/log.log
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/META-INF/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/META-INF/persistence.xml
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/com/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/com/bo/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/com/bo/Etudiant.java
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/com/dao/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/com/dao/EntityManagerFactoryBuilder.java
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/com/dao/JPAEtudiantDaoImpl.java
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/com/test/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/java/com/test/TestProgram.java
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/resources/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/resources/META-INF/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/src/main/resources/META-INF/persistence.xml
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/ExempleHibernate5-0.0.1-SNAPSHOT.jar
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/META-INF/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/META-INF/MANIFEST.MF
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/META-INF/persistence.xml
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/META-INF/maven/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/META-INF/maven/com.ensah/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/META-INF/maven/com.ensah/Exemple_Cours_JPA/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/META-INF/maven/com.ensah/Exemple_Cours_JPA/pom.properties
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/META-INF/maven/com.ensah/Exemple_Cours_JPA/pom.xml
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/com/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/com/bo/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/com/bo/Etudiant.class
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/com/dao/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/com/dao/EntityManagerFactoryBuilder.class
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/com/dao/JPAEtudiantDaoImpl.class
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/com/test/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/classes/com/test/TestProgram.class
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/maven-archiver/
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/maven-archiver/pom.properties
+spring/EXEMPL~1.$(/Exemple_Cours_JPA/target/test-classes/
+spring/EXEMPL~1.$(/persistence/
+spring/EXEMPL~1.$(/persistence/.gitignore
+spring/EXEMPL~1.$(/persistence/HELP.md
+spring/EXEMPL~1.$(/persistence/mvnw
+spring/EXEMPL~1.$(/persistence/mvnw.cmd
+spring/EXEMPL~1.$(/persistence/persistence.iml
+spring/EXEMPL~1.$(/persistence/pom.xml
+spring/EXEMPL~1.$(/persistence/.git/
+spring/EXEMPL~1.$(/persistence/.git/HEAD
+spring/EXEMPL~1.$(/persistence/.git/config
+spring/EXEMPL~1.$(/persistence/.git/description
+spring/EXEMPL~1.$(/persistence/.git/index
+spring/EXEMPL~1.$(/persistence/.git/hooks/
+spring/EXEMPL~1.$(/persistence/.git/hooks/applypatch-msg.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/commit-msg.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/fsmonitor-watchman.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/post-update.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/pre-applypatch.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/pre-commit.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/pre-merge-commit.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/pre-push.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/pre-rebase.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/pre-receive.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/prepare-commit-msg.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/push-to-checkout.sample
+spring/EXEMPL~1.$(/persistence/.git/hooks/update.sample
+spring/EXEMPL~1.$(/persistence/.git/info/
+spring/EXEMPL~1.$(/persistence/.git/info/exclude
+spring/EXEMPL~1.$(/persistence/.git/objects/
+spring/EXEMPL~1.$(/persistence/.git/objects/54
+spring/EXEMPL~1.$(/persistence/.git/objects/f1
+spring/EXEMPL~1.$(/persistence/.git/objects/0a/
+spring/EXEMPL~1.$(/persistence/.git/objects/0a/768614969889e813fffe141d4435c6abf9d141
+spring/EXEMPL~1.$(/persistence/.git/objects/1d/
+spring/EXEMPL~1.$(/persistence/.git/objects/1d/8ab018eaf11d9b3a4a90e7818ace373dfbb380
+spring/EXEMPL~1.$(/persistence/.git/objects/29/
+spring/EXEMPL~1.$(/persistence/.git/objects/29/0041f9ebda122bd422d17cce906ad3b74cc3c3
+spring/EXEMPL~1.$(/persistence/.git/objects/64/
+spring/EXEMPL~1.$(/persistence/.git/objects/64/760a056f96190ecf8a02e37ef4e1572e37a95e
+spring/EXEMPL~1.$(/persistence/.git/objects/8a/
+spring/EXEMPL~1.$(/persistence/.git/objects/8a/8fb2282df5b8f7263470a5a2dc0e196f35f35f
+spring/EXEMPL~1.$(/persistence/.git/objects/8b/
+spring/EXEMPL~1.$(/persistence/.git/objects/8b/137891791fe96927ad78e64b0aad7bded08bdc
+spring/EXEMPL~1.$(/persistence/.git/objects/8d/
+spring/EXEMPL~1.$(/persistence/.git/objects/8d/6d77d1bf5e3913179804b3bf5f0b5a1a73e75d
+spring/EXEMPL~1.$(/persistence/.git/objects/95/
+spring/EXEMPL~1.$(/persistence/.git/objects/95/de88746bac17d4d25e2dbdc639f132e1ec1e98
+spring/EXEMPL~1.$(/persistence/.git/objects/a9/
+spring/EXEMPL~1.$(/persistence/.git/objects/a9/fa6ff746a1c7c9ad0cbef3c3d8ba39b469fdc1
+spring/EXEMPL~1.$(/persistence/.git/objects/ab/
+spring/EXEMPL~1.$(/persistence/.git/objects/ab/52812002e8f163941213948df110d8c2cf1198
+spring/EXEMPL~1.$(/persistence/.git/objects/b7/
+spring/EXEMPL~1.$(/persistence/.git/objects/b7/4bf7fcd640440a49eb602158547670ef907772
+spring/EXEMPL~1.$(/persistence/.git/objects/c1/
+spring/EXEMPL~1.$(/persistence/.git/objects/c1/dd12f17644411d6e840bd5a10c6ecda0175f18
+spring/EXEMPL~1.$(/persistence/.git/objects/c2/
+spring/EXEMPL~1.$(/persistence/.git/objects/c2/ad4838077d31bfdd8ce1059f7792c9d3ddca95
+spring/EXEMPL~1.$(/persistence/.git/objects/d0/
+spring/EXEMPL~1.$(/persistence/.git/objects/d0/6072daf2f29fb905dcbda5d0ccd51a828d3ef9
+spring/EXEMPL~1.$(/persistence/.git/objects/e2/
+spring/EXEMPL~1.$(/persistence/.git/objects/e2/676c12b76a0aba7837d7341bc3d710fc94c613
+spring/EXEMPL~1.$(/persistence/.git/objects/e4/
+spring/EXEMPL~1.$(/persistence/.git/objects/e4/86098D~1. 0
+spring/EXEMPL~1.$(/persistence/.git/objects/info/
+spring/EXEMPL~1.$(/persistence/.git/objects/pack/
+spring/EXEMPL~1.$(/persistence/.git/refs/
+spring/EXEMPL~1.$(/persistence/.git/refs/heads/
+spring/EXEMPL~1.$(/persistence/.git/refs/tags/
+spring/EXEMPL~1.$(/persistence/.idea/
+spring/EXEMPL~1.$(/persistence/.idea/.gitignore
+spring/EXEMPL~1.$(/persistence/.idea/compiler.xml
+spring/EXEMPL~1.$(/persistence/.idea/encodings.xml
+spring/EXEMPL~1.$(/persistence/.idea/jarRepositories.xml
+spring/EXEMPL~1.$(/persistence/.idea/misc.xml
+spring/EXEMPL~1.$(/persistence/.idea/modules.xml
+spring/EXEMPL~1.$(/persistence/.idea/vcs.xml
+spring/EXEMPL~1.$(/persistence/.idea/workspace.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/
+spring/EXEMPL~1.$(/persistence/.idea/libraries/M@VE~174.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEN^69.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEN_~4.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEN_~5.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEN~64.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEN~75.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEN~81.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVE~109.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVE~115.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVE~179.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MAVEþ169.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MEVE~103.XMI?\#200
+spring/EXEMPL~1.$(/persistence/.idea/libraries/MEVE~163.XML
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Mavei?\#202__org_springfram?\#201?work_sprifg?\#201\#237ak?\#201??\#237࠶_0_2.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__net_bytebudɤɹ_byte_?\#201?o?\#203ddy_age?\#201?t_1_12_19?\#200?xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_assertj_assertj_core_3_23_1.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_4_0_1.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_1.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_0.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_3_0_0.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_springframework_data_spring_data_commons_3_0_0.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_3_0_0.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_springframework_spring_aspects_6_0_2.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_springframework_spring_test_6_0_2.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_springframework_spring_tx_6_0_2.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_springframework_spring_web_6_0_2.xml
+spring/EXEMPL~1.$(/persistence/.idea/libraries/Maven__org_spࡲingfɲa?\#201?eWu?\#212rk_b?\#203?o?\#201?_o?\#201pring_boot_starࡴer_tomCat_3_0_I?\#207.xi?\#201l
+spring/EXEMPL~1.$(/persistence/.mvn/
+spring/EXEMPL~1.$(/persistence/.mvn/wrapper/
+spring/EXEMPL~1.$(/persistence/.mvn/wrapper/maven-wrapper.jar
+spring/EXEMPL~1.$(/persistence/.mvn/wrapper/maven-wrapper.properties
+spring/EXEMPL~1.$(/persistence/src/
+spring/EXEMPL~1.$(/persistence/src/test
+spring/EXEMPL~1.$(/persistence/src/main/
+spring/EXEMPL~1.$(/persistence/src/main/java/
+spring/EXEMPL~1.$(/persistence/src/main/java/com/
+spring/EXEMPL~1.$(/persistence/src/main/java/com/example/
+spring/EXEMPL~1.$(/persistence/src/main/java/com/example/PERSIS~9
+spring/EXEMPL~1.$(/persistence/src/main/resources/
+spring/EXEMPL~1.$(/persistence/src/main/resources/application.properties
+spring/EXEMPL~1.$(/persistence/src/main/resources/static/
+spring/EXEMPL~1.$(/persistence/src/main/resources/templates/
+spring/EXEMPL~1.$(/persistence/target/
+spring/EXEMPL~1.$(/persistence/target/classes/
+spring/EXEMPL~1.$(/persistence/target/classes/application.properties
+spring/EXEMPL~1.$(/persistence/target/classes/com/
+spring/EXEMPL~1.$(/persistence/target/classes/com/example
+spring/EXEMPL~1.$(/persistence/target/generated-sources/
+spring/EXEMPL~1.$(/persistence/target/generated-sources/annotations
+spring/solution_tp3/
+spring/solution_tp3/Guide de migration de Spring ?\#200? Spring Boot.pdf
+spring/solution_tp3/gs_personnes_spring_jpa
+spring/solution_tp3/person__management_app
+spring/solution_tp3/.idea/
+spring/solution_tp3/.idea/.gitignore
+spring/solution_tp3/.idea/modules.xml
+spring/solution_tp3/.idea/solution_tp3.iml
+spring/solution_tp3/.idea/workspace.xml
+spring/solution_tp3/ensah_generic_dao/
+spring/solution_tp3/ensah_generic_dao/.classpath
+spring/solution_tp3/ensah_generic_dao/.project
+spring/solution_tp3/ensah_generic_dao/pom.xml
+spring/solution_tp3/ensah_generic_dao/.settings/
+spring/solution_tp3/ensah_generic_dao/.settings/org.eclipse.jdt.apt.core.prefs
+spring/solution_tp3/ensah_generic_dao/.settings/org.eclipse.jdt.core.prefs
+spring/solution_tp3/ensah_generic_dao/.settings/org.eclipse.m2e.core.prefs
+spring/solution_tp3/ensah_generic_dao/.settings/org.eclipse.wst.common.component
+spring/solution_tp3/ensah_generic_dao/.settings/org.eclipse.wst.common.project.facet.core.xml
+spring/solution_tp3/ensah_generic_dao/src/
+spring/solution_tp3/ensah_generic_dao/src/main/
+spring/solution_tp3/ensah_generic_dao/src/main/java/
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/api/
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/api/GenericDao.java
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/common/
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/common/DataAccessLayerException.java
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/common/EntityNotFoundException.java
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/impl/
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/impl/HibernateSpringGenericDaoImpl.java
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/utils/
+spring/solution_tp3/ensah_generic_dao/src/main/java/com/genericdao/utils/SessionFactoryBuilderHibernate.java
+spring/solution_tp3/ensah_generic_dao/src/main/resources/
+spring/solution_tp3/ensah_generic_dao/src/test/
+spring/solution_tp3/ensah_generic_dao/src/test/java/
+spring/solution_tp3/ensah_generic_dao/src/test/resources/
+spring/solution_tp3/gs_personnes_spring_data_jpa/
+spring/solution_tp3/gs_personnes_spring_data_jpa/.classpath
+spring/solution_tp3/gs_personnes_spring_data_jpa/.project
+spring/solution_tp3/gs_personnes_spring_data_jpa/pom.xml
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/.jsdtscope
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/org.eclipse.jdt.apt.core.prefs
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/org.eclipse.jdt.core.prefs
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/org.eclipse.m2e.core.prefs
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/org.eclipse.wst.common.component
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/org.eclipse.wst.common.project.facet.core.xml
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/org.eclipse.wst.jsdt.ui.superType.container
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/org.eclipse.wst.jsdt.ui.superType.name
+spring/solution_tp3/gs_personnes_spring_data_jpa/.settings/org.eclipse.wst.validation.prefs
+spring/solution_tp3/gs_personnes_spring_data_jpa/src/
+spring/solution_tp3/gs_personnes_spring_data_jpa/src/main/
+spring/solution_tp3/gs_personnes_spring_data_jpa/src/main/java
+spring/solution_tp3/gs_personnes_spring_data_jpa/src/main/resources
+spring/solution_tp3/gs_personnes_spring_data_jpa/src/main/webapp
+spring/solution_tp3/gs_personnes_spring_data_jpa/src/test/
+spring/solution_tp3/gs_personnes_spring_data_jpa/src/test/resources
+spring/solution_tp3/gs_personnes_spring_data_jpa/src/test/java/
+spring/solution_tp3/gs_personnes_spring_hibernate/
+spring/solution_tp3/gs_personnes_spring_hibernate/^10.PSO
+spring/solution_tp3/gs_personnes_spring_hibernate/_SR^1
+spring/solution_tp3/gs_personnes_spring_hibernate/pom.xml
+spring/solution_tp3/gs_personnes_spring_hibernate/~1   `.CLA
+spring/solution_tp3/gs_personnes_spring_hibernate/?\#220O?\#200OJEC~1
+spring/solution_tp3/gs_personnes_spring_hibernate/nsetti࡮gs/
+rsync: mkstemp "/Users/yassine/Desktop/kaggle_files/Technical Tests/Oracle/ORACLE~3/.63-?\#200?4(Python࠮png.ibsDs1" failed: Illegal byte sequence (92)
+rsync: recv_generator: mkdir "/Users/yassine/Desktop/kaggle_files/spring/solution_tp3/gs_personnes_spring_hibernate/nsetti࡮gs" failed: Illegal byte sequence (92)
+*** Skipping everything below this failed directory ***
+spring/tp3_ex1/
+spring/tp3_ex1/ensah_generic_dao/
+spring/tp3_ex1/ensah_generic_dao/.classpath
+spring/tp3_ex1/ensah_generic_dao/.idea
+spring/tp3_ex1/ensah_generic_dao/.project
+spring/tp3_ex1/ensah_generic_dao/ensah_generic_dao.iml
+spring/tp3_ex1/ensah_generic_dao/pom.xml
+spring/tp3_ex1/ensah_generic_dao/.settings/
+spring/tp3_ex1/ensah_generic_dao/.settings/org.eclipse.jdt.apt.core.prefs
+spring/tp3_ex1/ensah_generic_dao/.settings/org.eclipse.jdt.core.prefs
+spring/tp3_ex1/ensah_generic_dao/.settings/org.eclipse.m2e.core.prefs
+spring/tp3_ex1/ensah_generic_dao/.settings/org.eclipse.wst.common.component
+spring/tp3_ex1/ensah_generic_dao/.settings/org.eclipse.wst.common.project.facet.core.xml
+spring/tp3_ex1/ensah_generic_dao/.settings/org.eclipse.wst.validation.prefs
+spring/tp3_ex1/ensah_generic_dao/src/
+spring/tp3_ex1/ensah_generic_dao/src/main/
+spring/tp3_ex1/ensah_generic_dao/src/main/java/
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/common
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/api/
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/api/GenericDao.java
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/impl/
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/impl/HibernateGenericDAOImpl.java
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/impl/HibernateSpringGenericDaoImpl.java
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/impl/JPAHibernateGenericDAOImpl.java
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/impl/NativeHibernateGenericDAOImpl.java
+spring/tp3_ex1/ensah_generic_dao/src/main/java/com/genericdao/impl/NativeJPAHibernateGenericDAOImpl.java
+spring/tp3_ex1/ensah_generic_dao/src/main/resources/
+spring/tp3_ex1/ensah_generic_dao/src/test/
+spring/tp3_ex1/ensah_generic_dao/src/test/java/
+spring/tp3_ex1/ensah_generic_dao/src/test/resources/
+spring/tp3_ex1/ensah_generic_dao/target/
+spring/tp3_ex1/ensah_generic_dao/target/ensah_generic_dao-0.0.1.jar
+spring/tp3_ex1/ensah_generic_dao/target/classes/
+spring/tp3_ex1/ensah_generic_dao/target/classes/META-INF/
+spring/tp3_ex1/ensah_generic_dao/target/classes/META-INF/MANIFEST.MF
+spring/tp3_ex1/ensah_generic_dao/target/classes/META-INF/maven/
+spring/tp3_ex1/ensah_generic_dao/target/classes/META-INF/maven/com.ensah/
+spring/tp3_ex1/ensah_generic_dao/target/classes/META-INF/maven/com.ensah/ensah_generic_dao/
+spring/tp3_ex1/ensah_generic_dao/target/classes/META-INF/maven/com.ensah/ensah_generic_dao/pom.properties
+spring/tp3_ex1/ensah_generic_dao/target/classes/META-INF/maven/com.ensah/ensah_generic_dao/pom.xml
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/api/
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/api/GenericDao.class
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/common/
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/common/DataAccessLayerException.class
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/common/EntityNotFoundException.class
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/impl/
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/impl/.^Hife2nateSpringGeneѲic?\#201\#204aoImpl.clas?\#201?
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/impl/HiberNateSpringÇenesicDaoIm?\#201?l.class
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/impl/HibernateGenericDAOImpl.class
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/impl/JPAHibernateGenericDAOImpl.class
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/impl/NATIVE~1.CLA
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/impl/_NATIV~2.CLA
+spring/tp3_ex1/ensah_generic_dao/target/classes/com/genericdao/impl/_NQTIV~1.CLA
+spring/tp3_ex1/ensah_generic_dao/target/generated-sources/
+spring/tp3_ex1/ensah_generic_dao/target/generated-sources/annotations/
+spring/tp3_ex1/ensah_generic_dao/target/generated-sources/test-annotations/
+spring/tp3_ex1/ensah_generic_dao/target/maven-archiver/
+spring/tp3_ex1/ensah_generic_dao/target/maven-archiver/pom.properties
+spring/tp3_ex1/ensah_generic_dao/target/test-classes/
+rsync: mkstemp "/Users/yassine/Desktop/kaggle_files/spring/EXEMPL~1.$(/persistence/.idea/libraries/.Mavei?\#202__org_springfram?\#201?work_sprifg?\#201\#237ak?\#201??\#237࠶_0_2.xml.WZl800" failed: Illegal byte sequence (92)
+rsync: mkstemp "/Users/yassine/Desktop/kaggle_files/spring/EXEMPL~1.$(/persistence/.idea/libraries/.Maven__org_spࡲingfɲa?\#201?eWu?\#212rk_b?\#203?o?\#201?_o?\#201pring_boot_starࡴer_tomCat_3_0_I?\#207.xi?\#201l.yyHGyN" failed: Illegal byte sequence (92)
+
+sent 1037899293 bytes  received 16570 bytes  6548365.07 bytes/sec
+total size is 1037722387  speedup is 1.00
+rsync error: some files could not be transferred (code 23) at /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/rsync/rsync-54.120.1/rsync/main.c(996) [sender=2.6.9]
+zsh: command not found: #
+  adding: kaggle_files/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/VolumeConfiguration.plist (deflated 76%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexCompactDirectory (deflated 99%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/.store.db (deflated 70%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.health_check/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.shadowIndexHead (deflated 97%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.migration_secondchance/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.assisted_import_pre/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexPostings (deflated 68%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexIds (deflated 78%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.directoryStoreFile.shadow (deflated 95%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexHead (deflated 97%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexUpdates (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journalExclusion (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexPositionTable (deflated 85%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexGroups (deflated 94%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/shutdown_time (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexPositionTable (deflated 79%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexPositions (deflated 52%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexBigDates (deflated 100%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexPositions (deflated 14%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexDirectory (deflated 88%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/indexState (deflated 54%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.directoryStoreFile.shadow (deflated 85%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexGroups (deflated 99%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/reverseDirectoryStore.shadow (deflated 89%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.directoryStoreFile (deflated 100%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.corespotlight/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.live_system/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/psid.db (deflated 77%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.scan/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexHead (deflated 97%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/tmp.spotlight.loc (deflated 66%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexGroups (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.assisted_import_post/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexHead (deflated 97%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexArrays (deflated 53%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/reverseDirectoryStore (deflated 97%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexDirectory (deflated 87%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexArrays (deflated 74%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexDirectory (deflated 97%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexTermIds (deflated 80%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.live_user/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexBigDates (deflated 62%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/tmp.spotlight.state (deflated 99%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.live/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexArrays (deflated 53%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/store.db (deflated 70%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexIds (deflated 100%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/tmp.Cab (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.shadowIndexCompactDirectory (deflated 38%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.migration/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/journals.live_priority/ (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/Lion.created (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.shadowIndexGroups (deflated 67%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/reverseStore.updates (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/store.updates (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/tmp.Lion (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexTermIds (deflated 86%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/Cab.created (stored 0%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/live.0.indexPostings (deflated 85%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.indexCompactDirectory (deflated 80%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/0.directoryStoreFile (deflated 97%)
+  adding: kaggle_files/.Spotlight-V100/Store-V2/2FFFE861-7605-4612-ACEF-EDA90229F0D5/store_generation (stored 0%)
+  adding: kaggle_files/JAVA/ (stored 0%)
+  adding: kaggle_files/JAVA/cours java Boudaa.pdf (deflated 10%)
+  adding: kaggle_files/JAVA/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf (deflated 17%)
+  adding: kaggle_files/JAVA/Head First Design Patterns, 2nd Edition by Elisabeth Robson, Eric Freeman-O'Reilly-9781492078005-EBooksWorld.ir.pdf (deflated 9%)
+  adding: kaggle_files/JAVA/Cours JEE.pptx.pdf (deflated 24%)
+  adding: kaggle_files/JAVA/Anghel Leonard - The Complete Coding Interview Guide in Java_ An effective guide for aspiring Java developers to ace their programming interviews-Packt Publishing (2020) (1).pdf (deflated 5%)
+  adding: kaggle_files/JAVA/Vlad Mihalcea - High-Performance Java Persistence (2020).pdf (deflated 5%)
+  adding: kaggle_files/JAVA/Spring Security in Action (Laurentiu Spilca) (z-lib.org).pdf (deflated 12%)
+  adding: kaggle_files/JAVA/Head First Design Patterns, 2nd Edition by Elisabeth Robson, Eric Freeman-O'Reilly-9781492078005-EBooksWorld.ir.epub (deflated 0%)
+  adding: kaggle_files/JAVA/Joshua Bloch - Effective Java-Addison-Wesley Professional (2018).pdf (deflated 34%)
+  adding: kaggle_files/JAVA/Goetz, Brian_Peierls, Tim_Bloch, Joshua_Bowbeer, Joseph - Java concurrency in practice_ Brian Goetz ... et al.-Addison-Wesley Professional (2006_2013).pdf (deflated 27%)
+  adding: kaggle_files/JAVA/Head First Java 3rd Ed.epub (deflated 0%)
+  adding: kaggle_files/Technical Tests/ (stored 0%)
+  adding: kaggle_files/Technical Tests/NimbleWays/ (stored 0%)
+  adding: kaggle_files/Technical Tests/NimbleWays/Capture d’écran (65).png (deflated 4%)
+  adding: kaggle_files/Technical Tests/NimbleWays/Capture d’écran (64).png (deflated 4%)
+  adding: kaggle_files/Technical Tests/NimbleWays/Capture d’écran (63).png (deflated 4%)
+  adding: kaggle_files/Technical Tests/NimbleWays/Capture d’écran (62).png (deflated 4%)
+  adding: kaggle_files/Technical Tests/NimbleWays/Capture d’écran (61).png (deflated 4%)
+  adding: kaggle_files/Technical Tests/NimbleWays/Test Logique.txt (deflated 66%)
+  adding: kaggle_files/Technical Tests/NimbleWays/Capture d’écran (66).png (deflated 4%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/ (stored 0%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/OBAN~138.JPG (deflated 87%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-14-02-626.jpg (deflated 12%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/BAND~158.JPG (deflated 11%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/BAND~198.JPG (deflated 12%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/_BAN~146.JPG (deflated 2%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-59-205.jpg (deflated 13%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/required answer.mp4 (deflated 13%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 17-03-37-165.jpg (deflated 28%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-14-04-576.jpg (deflated 12%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-11-44-631.jpg (deflated 30%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-55-656.jpg (deflated 15%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/_BAL~186.JPG (deflated 93%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-38-765.jpg (deflated 13%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/BEND~150.JPG (deflated 25%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/BAND~!42.JPG (deflated 12%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/_BAN~±54.JPG (deflated 93%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-18-11-465.jpg (deflated 19%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/_CAN~202.JPG (deflated 93%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 17-03-21-504.jpg (deflated 26%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-09-56-018.jpg (deflated 14%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-49-319.jpg (deflated 16%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-33-069.jpg (deflated 12%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-11-42-309.jpg (deflated 31%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-40-859.jpg (deflated 14%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 17-03-31-677.jpg (deflated 26%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 17-03-35-020.jpg (deflated 21%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/BAND~±34.JPG (stored 0%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/bandicam 2021-11-28 14-13-29-125.jpg (deflated 11%)
+  adding: kaggle_files/Technical Tests/SQLI FrontEnd 2022/Bandicࡡm 2021-11-28 34­11-39-297.jpg (deflated 26%)
+  adding: kaggle_files/Technical Tests/SQLI (stored 0%)
+  adding: kaggle_files/Technical Tests/Neosys/ (stored 0%)
+  adding: kaggle_files/Technical Tests/Neosys/_SQ~1.` (stored 0%)
+  adding: kaggle_files/Technical Tests/Neosys/.ၟ,DS_Stnre (deflated 96%)
+  adding: kaggle_files/Technical Tests/Neosys/_READM~1.MD (deflated 94%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/ (stored 0%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.20.jpeg (deflated 40%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.55 (1).jpeg (deflated 39%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.21 (1).jpeg (deflated 37%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.56.jpeg (deflated 35%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.57.jpeg (deflated 32%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.21.jpeg (deflated 38%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.07.jpeg (deflated 39%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.21 (2).jpeg (deflated 38%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.11.jpeg (deflated 42%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.07 (1).jpeg (deflated 41%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.10 (1).jpeg (deflated 33%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.11 (1).jpeg (deflated 40%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.10.jpeg (deflated 29%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.06.jpeg (deflated 43%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.05.jpeg (deflated 41%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.28.jpeg (deflated 41%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.24.jpeg (deflated 40%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.25.jpeg (deflated 24%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.33.jpeg (deflated 30%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.49.jpeg (deflated 33%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.53.jpeg (deflated 35%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.12.jpeg (deflated 38%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.57 (1).jpeg (deflated 39%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.56 (1).jpeg (deflated 31%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.18.jpeg (deflated 39%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.12 (1).jpeg (deflated 26%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.34.jpeg (deflated 33%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.25 (1).jpeg (deflated 31%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.24 (1).jpeg (deflated 35%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.55.jpeg (deflated 39%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.43.jpeg (deflated 39%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.23.jpeg (deflated 38%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.06.57 (2).jpeg (deflated 32%)
+  adding: kaggle_files/Technical Tests/Neosys/TALEND$. `/WhatsApp Image 2021-01-05 at 10.07.33 (1).jpeg (deflated 36%)
+  adding: kaggle_files/Technical Tests/Neosys/readme.md (deflated 66%)
+  adding: kaggle_files/Technical Tests/Neosys/DS_STO~1 (stored 0%)
+  adding: kaggle_files/Technical Tests/Neosys/_TALEN^1. ! (stored 0%)
+  adding: kaggle_files/Technical Tests/Neosys/SQL (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACL~2 (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/ (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/36-71 Jenkins.png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/53-74 Elastic Stack.png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/71(1)-74 Java.png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_70-74~1.RNG (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/37-74 Jenkins.png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/23-71 Algo.png (deflated 4%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/56-74 Elastic Stack.png (deflated 9%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/43-74 Linux Admin.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_15-71~1.PNG (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/‱5-71 Dokūer.png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/24-71 Jenkins.png (deflated 9%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/31-71 Jenkins.png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_11-31~±.PNO (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/6-71 Git.png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/21-71 Docker.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/18-71 Docker.png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/3-71 Git.png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/30-71 Jenkins.png (deflated 9%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/25-71 Jenkins.png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/22-71 Docker.png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/73-74 Java.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/62-74P~1.PNG (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/54-74 Elá3tic Stacɫ.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/23-71(1) Algo.png (deflated 4%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/9-71 Docker.png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/40-74 Linux Admin.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/66-74 Java.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_62-74~1.PNÇ (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/32)71 Jencins.png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_±-71E~1.PNG (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_12-75~1.PNG (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/39-74L~1.PNG (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/65-74P~1.PNF (deflated 9%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/ß26-71~1.PNG (deflated 12%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_29-7±~1.PNC (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_69-70~1.PNG (deflated 1%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/57%74E~1.PNG (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/35-7! Ŋenkins (deflated 6%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/´5-74L~1.PNG (deflated 12%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_57-74~1.PNG (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/51-74L~1.PNG (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/17-71 Docker.png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_38-74~1.PNG (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/2-71 Git.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/48)64L~1.PNG (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/13-71 Docker.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_34-71~1.PNO (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/67-74 Java.png (deflated 9%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/60-74 Python.png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/72-74 Java.png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/44-74 Linux Admin.png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/49-74 Linux Admin.png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/59-74 Python.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_34-71~1.PNG (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/64-74 Python.png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/70-74 Jav`®png (deflated 8%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_65-74~1.RNG (deflated 93%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/26-71 Jenkins-Nexus.png (deflated 9%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_28-71~1.PNG (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/16-71D~1.PNG (deflated 5%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/61-74P~±.RNG (deflated 7%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_61-74~1.PNG (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_16­75~1.PNG (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/51-74E~5.PNG (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/69-7´J~1.PNG (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_48-74~1.PNG (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/_45-'4~1.PNG (deflated 88%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACLE~3/33-71J~1.PNG (deflated 6%)
+  adding: kaggle_files/Technical Tests/Oracle/Oršcle FroŮtelȤ (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/ORACL~37 (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/_GRACL~± (deflated 94%)
+  adding: kaggle_files/Technical Tests/Oracle/_ORAC~40 (stored 0%)
+  adding: kaggle_files/Technical Tests/Oracle/^ORACL~5 (stored 0%)
+  adding: kaggle_files/Technical Tests/PFE_2020_Problems.zip (stored 0%)
+  adding: kaggle_files/Technical Tests/Alten (stored 0%)
+  adding: kaggle_files/Technical Tests/D-AIM (stored 0%)
+  adding: kaggle_files/Technical Tests/SG ATS/ (stored 0%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’écran (9).png (deflated 11%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’écran (12).png (deflated 11%)
+  adding: kaggle_files/Technical Tests/SG ATS/CAPTU~62.PNG (deflated 7%)
+  adding: kaggle_files/Technical Tests/SG ATS/_CAPT~65.ÔNG (deflated 92%)
+  adding: kaggle_files/Technical Tests/SG ATS/_CAPT~59.PNG (deflated 88%)
+  adding: kaggle_files/Technical Tests/SG ATS/CAPTU~98.png (deflated 13%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’écran (13).png (deflated 10%)
+  adding: kaggle_files/Technical Tests/SG ATS/Captɵze d’écၲan (10).png (deflated 11%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’écran (22).png (deflated 9%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’écran (14).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’écran (15).png (deflated 9%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’éãran (31).png (deflated 10%)
+  adding: kaggle_files/Technical Tests/SG ATS/n_Ãapture d’ࣩcran (13).png (deflated 92%)
+  adding: kaggle_files/Technical Tests/SG ATS/CAPTUR~4.PNG (deflated 3%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’écran (16).png (deflated 8%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’écran (17).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/SG ATS/_CAPTU~4.PNG (stored 0%)
+  adding: kaggle_files/Technical Tests/SG ATS/CAPTU~68.PNG (deflated 8%)
+  adding: kaggle_files/Technical Tests/SG ATS/CAPÔU~56.PNG (deflated 10%)
+  adding: kaggle_files/Technical Tests/SG ATS/_CAPT~95.PNO (deflated 92%)
+  adding: kaggle_files/Technical Tests/SG ATS/Capture d’écran (11).png (deflated 10%)
+  adding: kaggle_files/Technical Tests/Novelis/ (stored 0%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (404).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (392).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (428).png (deflated 5%)
+  adding: kaggle_files/Technical Tests/Novelis/_CAP~347.PNG (deflated 88%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (388).png (deflated 5%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (408).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPT^400.PNG (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/_CIPþ#54.XNG (deflated 88%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (424).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (432).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/_CAPT~74.PNG (deflated 92%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPT~106.PNG (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPT~113.PNG (stored 0%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (429).png (deflated 5%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (393).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (413).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (418).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (398).png (deflated 5%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (422).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (414).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (382).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (402).png (deflated 5%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (394).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (286).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (395).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (403).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (383).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (415).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPTT~78.PNG (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (423).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (399).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (419).png (deflated 5%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (420).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (284).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (396).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPT~35!.PNG (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (400).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (380).png (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (416).png (deflated 5%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (417).png (deflated 4%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (381).png (deflated 3%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (401).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (397).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPTUR~1.PNO (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPTUR~2.PNG (deflated 7%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (285).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (421).png (deflated 5%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPT~393.PNG (deflated 96%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPT~344.PNG (deflated 5%)
+  adding: kaggle_files/Technical Tests/Novelis/_CAP~116.PNG (deflated 92%)
+  adding: kaggle_files/Technical Tests/Novelis/CAPTU~71.PLG (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (390).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (406).png (deflated 3%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (386).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (410).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/_CEPT~67.PNG (deflated 92%)
+  adding: kaggle_files/Technical Tests/Novelis/_CAP~403.PNG (deflated 92%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (427).png (deflated 4%)
+  adding: kaggle_files/Technical Tests/Novelis/_CAPTU~2.PNG (deflated 91%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (431).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (411).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (387).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/_CAPT~81.PNG (deflated 92%)
+  adding: kaggle_files/Technical Tests/Novelis/Capture d’écran (407).png (deflated 6%)
+  adding: kaggle_files/Technical Tests/Novelis/_cap~340.P^G (deflated 87%)
+  adding: kaggle_files/Technical Tests/Readme.txt (deflated 34%)
+  adding: kaggle_files/Technical Tests/Payment-Center-for-Africa (stored 0%)
+  adding: kaggle_files/dont remove/ (stored 0%)
+  adding: kaggle_files/dont remove/Screen Shot 2023-08-20 at 10.29.56.png (deflated 6%)
+  adding: kaggle_files/dont remove/index.html (deflated 75%)
+  adding: kaggle_files/dont remove/Screen Shot 2023-09-13 at 10.51.22.png (deflated 2%)
+  adding: kaggle_files/dont remove/Screen Shot 2023-11-01 at 21.59.22.png (deflated 4%)
+  adding: kaggle_files/dont remove/ats-logo.png (deflated 0%)
+  adding: kaggle_files/dont remove/Screen Shot 2023-06-17 at 19.26.29.png (deflated 17%)
+  adding: kaggle_files/dont remove/Screen Shot 2022-11-07 at 21.56.31.png (deflated 4%)
+  adding: kaggle_files/dont remove/donation-app-images/ (stored 0%)
+  adding: kaggle_files/dont remove/donation-app-images/woman-clothes/ (stored 0%)
+  adding: kaggle_files/dont remove/donation-app-images/woman-clothes/Fashion brands you didnt know you could shop at John Lewis.avif (deflated 0%)
+  adding: kaggle_files/dont remove/donation-app-images/woman-clothes/istockphoto-1208148708-612x612.jpeg (deflated 2%)
+  adding: kaggle_files/dont remove/donation-app-images/woman-clothes/fashion-female-clothes-collagewomen-girls-260nw-637422163.webp (stored 0%)
+  adding: kaggle_files/dont remove/donation-app-images/men-clothes/ (stored 0%)
+  adding: kaggle_files/dont remove/donation-app-images/men-clothes/download.jpeg (deflated 0%)
+  adding: kaggle_files/dont remove/donation-app-images/men-clothes/gghsb.jpeg (deflated 0%)
+  adding: kaggle_files/dont remove/donation-app-images/men-clothes/images.jpeg (deflated 0%)
+  adding: kaggle_files/dont remove/donation-app-images/360_F_318308547_FALKncfWsTmjzwd0y0muNeCFOULPLB7Q.jpeg (deflated 10%)
+  adding: kaggle_files/dont remove/Screen Recording 2023-02-14 at 23.34.50.zip
+zip I/O error: No space left on device
+zip error: Output file write failure (write error on zip file)
+zsh: unknown file attribute: ^
+yassine@192 Desktop % 
